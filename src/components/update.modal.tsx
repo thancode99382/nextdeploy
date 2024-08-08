@@ -96,7 +96,7 @@ export default function UpdateModal(props: Iprops) {
                   <textarea
                     className="form-control"
                     id="exampleFormControlTextarea1"
-                    rows="3"
+                    
                     onChange={(e) => setContent(e.target.value)}
                     value={content}
                   ></textarea>
