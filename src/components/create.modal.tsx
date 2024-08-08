@@ -85,7 +85,7 @@ export default function Modal(props: Iprops) {
                   <textarea
                     className="form-control"
                     id="exampleFormControlTextarea1"
-                    rows="4"
+                    
                     onChange={(e) => setContent(e.target.value)}
                   ></textarea>
                 </div>
